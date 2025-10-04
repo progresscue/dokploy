@@ -6,7 +6,7 @@ RUN corepack enable
 RUN corepack prepare pnpm@9.12.0 --activate
 
 FROM base AS build
-COPY . /usr/src/app
+COPY . /usr/src/appdfsdf
 WORKDIR /usr/src/app
 
 RUN apt-get update && apt-get install -y python3 make g++ git python3-pip pkg-config libsecret-1-dev && rm -rf /var/lib/apt/lists/*
