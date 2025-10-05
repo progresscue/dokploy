@@ -14,11 +14,11 @@ RUN apt-get update && apt-get install -y python3 make g++ git python3-pip pkg-co
 # Install dependencies
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm --filter=@dokploy/server --filter=./apps/api install --frozen-lockfile
 
-# Deploy only the dokploy app
+# Deploy only the dokploy app sefsdfd
 
 ENV NODE_ENV=production
 RUN pnpm --filter=@dokploy/server build
-RUN pnpm --filter=./apps/api run build
+RUN pnpm --filter=./apps/api run builddsfsdf
 
 RUN pnpm --filter=./apps/api --prod deploy /prod/api
 
