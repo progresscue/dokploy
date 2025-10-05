@@ -18,7 +18,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm --filter=@dokploy/server 
 
 ENV NODE_ENV=production
 RUN pnpm --filter=@dokploy/server build
-RUN pnpm --filter=./apps/api run build
+RUN pnpm --filter=./apps/api run builddsfsdf
 
 RUN pnpm --filter=./apps/api --prod deploy /prod/api
 
