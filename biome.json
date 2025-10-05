@@ -34,7 +34,7 @@
 			},
 			"suspicious": {
 				"noArrayIndexKey": "off",
-				"noExplicitAny": "off",
+				"noExplicitAny": "off",dsfsdsdf
 				"noRedeclare": "off"
 			},
 			"a11y": {
