@@ -8,7 +8,7 @@
 		"dokploy:dev:turbopack": "pnpm --filter=dokploy run dev-turbopack",
 		"dokploy:build": "pnpm --filter=dokploy run build",
 		"dokploy:start": "pnpm --filter=dokploy run start",
-		"test": "pnpm --filter=dokploy run test",
+		"test": "pnpm --filter=dokploy run test",d
 		"server:script": "pnpm --filter=server run switch:dev",
 		"server:dev": "pnpm --filter=server run dev",
 		"server:build": "pnpm --filter=server run build",
